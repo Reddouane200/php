@@ -1,0 +1,49 @@
+
+        .container {
+       
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        form, table {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        form label, form input {
+            display: block;
+            width: calc(50% - 20px);
+            margin: 0 auto 15px auto;
+        }
+
+        form input[type="date"] {
+            width: calc(50% - 24px);
+        }
+
+        table {
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th, td {
+            padding: 8px;
+            border-bottom: 1px solid darkblue;
+        }
+
+        th {
+            background-color: darkblue;
+            color: blanchedalmond;
+        }
+        button{
+            color: gold;
+           text-align: center;
+           background: darkblue;
+        }
